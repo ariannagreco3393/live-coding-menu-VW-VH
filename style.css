@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar{
+    text-align: center;
+    background-color: rgb(206, 203, 203);
+    height: 70px;
+  /*   padding: 15px 0; */
+}
+
+.logo img{
+    height: 30px;
+    vertical-align: middle;
+}
+
+.navbar ul{
+  list-style: none;
+  display: inline;
+  
+   
+}
+
+.navbar ul>li{
+    display:inline-block ;
+   /*  padding: 0 1rem; */
+   
+}
+
+.navbar a{
+
+ text-decoration: none;
+ color: cornflowerblue;
+ display: inline-block;
+ padding: 24px 5px;
+
+}
+
+.menu a:hover{
+    border-bottom: 5px solid darkblue;
+}
